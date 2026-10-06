@@ -424,5 +424,16 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# BepInEx & Gorilla Tag Specifics
+[Bb]in/
+[Oo]bj/
+*.dll
+*.pdb
+
+# If you copy files to your game directory for testing
+/BepInEx/
+/Gorilla Tag_Data/
+
+
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
